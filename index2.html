@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Sign Up</h1>
+        </header>
+        <form action="#" method="post">
+            <section>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required aria-required="true">
+            </section>
+
+            <section>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required aria-required="true">
+            </section>
+
+            <section>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required aria-required="true">
+            </section>
+
+            <section>
+                <label for="hear-about">How did you hear about us?</label>
+                <select id="hear-about" name="hear-about" required aria-required="true">
+                    <option value="">Select an option</option>
+                    <option value="friend">A Friend</option>
+                    <option value="search">Search Engine</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+
+            <fieldset>
+                <legend>Subscription Type</legend>
+                <ul class="radio-group">
+                    <li>
+                        <input type="radio" id="basic" name="subscription" value="basic" required aria-required="true">
+                        <label for="basic">Basic</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="premium" name="subscription" value="premium">
+                        <label for="premium">Premium</label>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <section>
+                <span>Options</span>
+                <ul class="checkbox-group">
+                    <li>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to Newsletter</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="terms" name="terms" required aria-required="true">
+                        <label for="terms">Agree to Terms and Conditions</label>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="SumbitButton">
+                <button type="submit">Sign Up</button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
