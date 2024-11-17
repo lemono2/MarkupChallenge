@@ -17,7 +17,7 @@ main {
     margin: 50px;
 }
 
-header {  
+header {
     background-color: #333;
     color: #fff;
     padding: 1rem;
@@ -43,7 +43,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-
 
 img {
     width: 50px;
